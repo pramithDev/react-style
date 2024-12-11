@@ -40,3 +40,33 @@ export default function App() {
 // }
 
 // export default App;
+
+
+
+// import React from 'react';
+
+// function App() {
+//     const [choice, setChoice] = React.useState(null);
+//     let dynamicClass = '';
+    
+//     if (choice === 'yes') {
+//         dynamicClass = 'highlight-green'
+//     } else if (choice === 'no') {
+//         dynamicClass = 'highlight-red'
+//     }
+//   return (
+//     <div id="app">
+//       <h1 className={`${dynamicClass}`}>CSS is great!</h1>
+//       <menu>
+//         <li>
+//           <button onClick={() => setChoice('yes')}>Yes</button>
+//         </li>
+//         <li>
+//           <button onClick={() => setChoice('no')}>No</button>
+//         </li>
+//       </menu>
+//     </div>
+//   );
+// }
+
+// export default App;
